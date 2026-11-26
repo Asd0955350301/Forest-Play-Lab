@@ -1,0 +1,874 @@
+{
+  "wood": {
+    "file": "wood.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Weatherworn_planks_on_top_of_wooden_table.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2017-10-08 14:26:45",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Weatherworn planks on top of wooden table",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "CC-Zero|Wood knots|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Pine wood objects|Loddebo|Wood planks",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "58.386598",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "11.451964",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Weatherworn grey silky planks of a plain wooden table outside a fishing hut in Loddebo, Lysekil Municipality, Sweden. The picture is <a href=\"https://en.wikipedia.org/wiki/Focus_stacking\" class=\"extiw\" title=\"en:Focus stacking\">focus stacked</a> from four photos.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2017-10-06 13:44:10",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Zero, Public Domain Dedication",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "false",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Weatherworn planks on top of wooden table.jpg"
+  },
+  "driftwood": {
+    "file": "driftwood.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Driftwood_Pieces.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2009-08-04 04:05:52",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Driftwood Pieces",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Driftwood|Self-published work",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Driftwood pieces on Wood by Susie Frazier Mueller",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2005",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Recordsetter23&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Recordsetter23 (page does not exist)\">Recordsetter23</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Driftwood Pieces.jpg"
+  },
+  "steel": {
+    "file": "steel.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%27Cell_form%27_steel_beams._-_geograph.org.uk_-_486902.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2011-02-05 00:50:03",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "'Cell form' steel beams. - geograph.org.uk - 486902",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Images from Geograph Britain and Ireland|Images by Steve Fareham|United Kingdom photographs taken on 2004-10-18|Construction in Leeds|Steel beams|Victoria Road, LS11",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "53.791060",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-1.546300",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "'Cell form' steel beams. Close up of steel beams and easi-edge.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2004-10-18",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "From <a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/photo/486902\">geograph.org.uk</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.geograph.org.uk/profile/15341\">Steve  F</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Attribution": {
+        "value": "Steve  F",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:'Cell form' steel beams. - geograph.org.uk - 486902.jpg"
+  },
+  "concrete": {
+    "file": "concrete.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Concrete_block.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2010-08-13 22:48:07",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Concrete block",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|Taken with Olympus u790SW / S-790SW|Rona (company)|Weights|License migration redundant|Concrete hollow blocks|Self-published work|Broken parts|July 2010 in Calgary|Seerig's pictures",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A broken concrete block being used as a weight in Calgary, Alberta.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2010-07-10",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Seerig\" title=\"User:Seerig\">Sergei S. Scurfield</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "<table style=\"margin: 1.5em auto; width:85%; background-color:#ccf; border:2px solid #33f; padding:1px;\" cellspacing=\"10\">\n<tbody><tr>\n<td><b>Taken by <a href=\"//commons.wikimedia.org/wiki/User:Seerig\" title=\"User:Seerig\">Sergei S. Scurfield</a> | <a rel=\"nofollow\" class=\"external text\" href=\"http://toolserver.org/~daniel/WikiSense/Gallery.php?wikifam=commons.wikimedia.org&amp;img_user_text=Seerig\">Gallery</a></b>\n<p>Any use of images uploaded by me, Wikimedia Commons contributor <a href=\"//commons.wikimedia.org/wiki/User:Seerig\" title=\"User:Seerig\">Seerig</a>, must be attributed to me using my full name, Sergei S. Scurfield. Failure to do so will result in a copyright violation.  \n</p><p>If you use my image/s outside Wikimedia, please let me know on my <a href=\"//commons.wikimedia.org/wiki/User_talk:Seerig\" title=\"User talk:Seerig\">talk page</a>, as I'm curious where my work is used.  If you are a (commercial) publisher and want to relicense my pictures or purchase a print, please first contact me on my talk page. If you would like to use this image in a way which is incompatible with the given <a href=\"https://en.wikipedia.org/wiki/ShareAlike\" class=\"extiw\" title=\"w:ShareAlike\">w:ShareAlike</a> licenses, please contact me on my talk page.\n</p>\n</td></tr></tbody></table>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/3.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Concrete block.jpg"
+  },
+  "rope": {
+    "file": "rope.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Coiled_rope_03235.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2008-04-13 21:08:05",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Coiled rope 03235",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "GFDL|Taken with Sony DSC-F828|Graphics|Plan views|License migration completed|Flemish coils|Self-published work|Commons featured desktop backgrounds|ISO speed rating 64|Exposure time 1/160 sec|Nevit Dilmen|Turquoise objects|Black and blue|Featured pictures on Wikipedia, Persian|Featured pictures on Wikipedia, Turkish|Featured pictures on Wikipedia, Vietnamese|F-number f/5|Featured pictures of texture photography|Photographs taken on 2004-07-24|Blue ropes|Coiled ropes",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality|featured|potd",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Coil Rope.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2004",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Nevit\" title=\"User:Nevit\">Nevit Dilmen</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "I, the copyright holder of this work, hereby publish it under the following license:",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Coiled rope 03235.jpg"
+  },
+  "hemp": {
+    "file": "hemp.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Picket_fence_hemp_rope_at_Riverside_Moorings,_Shoreham,_West_Sussex,_England.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2017-07-14 13:17:24",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Picket fence hemp rope at Riverside Moorings, Shoreham, West Sussex, England",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Photographs with aspect ratio of 3:2|Taken with Canon EOS 6D and Canon EF 24-105mm F4L IS USM|Self-published work|Summer in West Sussex|Fences in West Sussex|Picket fences in the United Kingdom|Summer 2017 in the United Kingdom|July 2017 in West Sussex|Dappled light and shadow in West Sussex|United Kingdom photographs taken on 2017-07-06|Riverside Moorings, Shoreham|Damaged rope|Acabashi photos: fences, gates and walls|Files with coordinates missing SDC location of creation (50° N, 1° W)|Hemp ropes|Boundary fences",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "quality",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "50.829020",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "-0.281233",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Hemp rope tied around a picket fence as a houseboat boundary at Riverside Moorings, a houseboat moorings which has become a tourist attraction, along the southern tidal mud flats of the <a href=\"https://en.wikipedia.org/wiki/River_Adur\" class=\"extiw\" title=\"en:River Adur\">River Adur</a>, and off a riverbank footpath adjacent to Riverside Road and Beach Green in <a href=\"https://en.wikipedia.org/wiki/Shoreham-by-Sea\" class=\"extiw\" title=\"en:Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"https://en.wikipedia.org/wiki/West_Sussex\" class=\"extiw\" title=\"en:West Sussex\">West Sussex</a>, England.<br>The boats, some of which are retired military ships, have been converted into 'artworks' by the addition of second hand vehicles, other boats and detritus, and are quarters for living and renting.<br><b>Camera</b>: <a href=\"https://en.wikipedia.org/wiki/Canon_EOS_6D\" class=\"extiw\" title=\"w:Canon EOS 6D\">Canon EOS 6D</a> with <a href=\"https://en.wikipedia.org/wiki/Canon_EF_24%E2%80%93105mm_lens\" class=\"extiw\" title=\"w:Canon EF 24–105mm lens\">Canon EF 24-105mm F4L IS USM</a> lens.<br><b>Software</b>: file lens-corrected and optimized with <a href=\"https://en.wikipedia.org/wiki/DxO_OpticsPro\" class=\"extiw\" title=\"en:DxO OpticsPro\">DxO OpticsPro 10 Elite</a> and Viewpoint 2, and further optimized with <a href=\"https://en.wikipedia.org/wiki/Adobe_Photoshop#CS2\" class=\"extiw\" title=\"en:Adobe Photoshop\">Adobe Photoshop CS2</a>.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2017-07-06 12:24:39",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>",
+        "source": "commons-desc-page"
+      },
+      "Permission": {
+        "value": "<div style=\"clear:both; border:1px solid #999999; margin:1em 0.8em; padding:0.5em 0.8em; background-color: var(--background-color-base, #fff); color: inherit; font-size: 100%;\">\n<p><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:CCBYSA_yellow.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/2/29/CCBYSA_yellow.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"87\" height=\"35\" class=\"mw-file-element\" data-file-width=\"87\" data-file-height=\"35\"></a></span>\n</p><p>Permission is given to reuse this file under conditions stipulated by <a href=\"https://en.wikipedia.org/wiki/Creative_Commons\" class=\"extiw\" title=\"en:Creative Commons\">Creative Commons</a> <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">Attribution-ShareAlike 4.0 International</a> licensing. Please note that although this file is <a href=\"//commons.wikimedia.org/wiki/Commons:Licensing\" title=\"Commons:Licensing\">freely licenced</a> it is <b>not in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"en:Public domain\">public domain</a></b>, and might have specific <b>exclusion</b> for use in <b>social media</b>.\n</p><p>Before download and reuse, please consult the Wikimedia page <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">Reusing content outside Wikimedia</a>. Attribution <b>must</b> be given for republishing this image in <b>any</b> media, and requires the name of the creator (<a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>), and a link to the content here if web based, or written accreditation if not web based. If you change, manipulate or add to any resolution of the file, or use the file or parts of it within other works, on publication in any media you <b>must still</b> credit the creator here as described above for this original image used, and must detail the changes you made. In all cases you must also add follow-on <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">Attribution-ShareAlike 4.0 International</a> copyright license and disclaimer notices. You must state that your variation is freely available under this same level Creative Commons license, and that any follow-on publishing by others, with or without their further changes as above, must add the same licensing statement, and attribution referral to the original image here.\n</p><p><b>Put simply</b>, you must not re-publish this file without attribution and Creative Commons license, whether or not you have built on it, or with it, and you must not insist on your own copyright notification stopping others from freely using it or your variation or composite.\n</p><p><b>Online attribution</b>: Image © <a href=\"//commons.wikimedia.org/wiki/User:Acabashi\" title=\"User:Acabashi\">Acabashi</a>; <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by/4.0/legalcode\">Creative Commons CC-BY-SA 4.0</a>; Source: <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a>\n</p><p><b>Print attribution</b>: Image © Acabashi, Creative Commons CC-BY-SA 4.0, Wikimedia Commons\n</p>\n</div>",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Picket fence hemp rope at Riverside Moorings, Shoreham, West Sussex, England.jpg"
+  },
+  "oldrope": {
+    "file": "oldrope.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DSC_6594_A_weathered_mooring_post_wrapped_with_frayed_rope_sits_on_a_concrete_pier_lights_from_the_distant_shoreline_reflecting_on_the_water_at_night.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2026-09-29 01:13:23",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "DSC 6594 A weathered mooring post wrapped with frayed rope sits on a concrete pier lights from the distant shoreline reflecting on the water at night",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Coilings and coils|Files with coordinates missing SDC location of creation|Damaged rope|Flickr images reviewed by FlickreviewR 2|Klet Kaeo",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "GPSLatitude": {
+        "value": "12.764130",
+        "source": "commons-desc-page"
+      },
+      "GPSLongitude": {
+        "value": "100.890608",
+        "source": "commons-desc-page"
+      },
+      "GPSMapDatum": {
+        "value": "WGS-84",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "A weathered mooring bollard dominates the foreground of this nighttime harbor scene, its rusted metal base supporting tightly coiled loops of thick, frayed rope that has clearly endured years of use and exposure to the elements. The bollard sits on a concrete pier, with worn wooden pilings visible to the left and a section of railing on the right framing the composition. Beyond the pier, the dark water of the harbor stretches out, its surface gently rippled and reflecting the warm glow of distant shoreline lights - a mix of white, yellow, and green points of illumination that hint at a coastal town or port facility across the bay. The deep black sky above provides a stark contrast to the scattered lights, lending the scene a quiet, contemplative atmosphere typical of a working waterfront after dark in Sattahip, Thailand.",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2024-12-11 20:50:15",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/194424926@N05/54198907198\">Flickr</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/PattayaPatrol/\">PattayaPatrol</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:DSC 6594 A weathered mooring post wrapped with frayed rope sits on a concrete pier lights from the distant shoreline reflecting on the water at night.jpg"
+  },
+  "paperrope": {
+    "file": "paperrope.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Twine.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2006-02-02 23:06:20",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Twine",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Bobbins|Twine|Flickr images reviewed by FlickreviewR|FlickrLickr images|String",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Twine",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2004-12-22 10:35:48",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/61022450@N00/2441520\">https://www.flickr.com/photos/61022450@N00/2441520</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://flickr.com/photos/61022450@N00\">Kris Miller</a> from Issaquah",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY 2.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution 2.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by/2.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-2.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Twine.jpg"
+  },
+  "plastic": {
+    "file": "plastic.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_Lumber_Boardwalk.jpg",
+    "metadata": {
+      "DateTime": {
+        "value": "2019-07-02 16:29:34",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Plastic Lumber Boardwalk",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Fences|Self-published work",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Boardwalk with HDPE plastic lumber by Bedford Technology",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2015-01-30",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Shanemurphy22&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Shanemurphy22 (page does not exist)\">Shanemurphy22</a>",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 4.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 4.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "https://creativecommons.org/licenses/by-sa/4.0",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-4.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Plastic Lumber Boardwalk.jpg"
+  },
+  "cardboard": {
+    "file": "cardboard.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG",
+    "metadata": {
+      "DateTime": {
+        "value": "2009-04-16 09:31:07",
+        "source": "mediawiki-metadata",
+        "hidden": ""
+      },
+      "ObjectName": {
+        "value": "Corrugated Cardboard",
+        "source": "mediawiki-metadata"
+      },
+      "CommonsMetadataExtension": {
+        "value": 1.2,
+        "source": "extension",
+        "hidden": ""
+      },
+      "Categories": {
+        "value": "Taken with Olympus u30D / S-410D / u410D|User-created GFDL images|Corrugated fiberboard|License migration completed|Self-published work|GFDL-en",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "Assessments": {
+        "value": "",
+        "source": "commons-categories",
+        "hidden": ""
+      },
+      "ImageDescription": {
+        "value": "Corrugated cardboard",
+        "source": "commons-desc-page"
+      },
+      "DateTimeOriginal": {
+        "value": "2006-11-24 16:03",
+        "source": "commons-desc-page"
+      },
+      "Credit": {
+        "value": "Taken from <a class=\"external free\" data-mw-original-href=\"http://en.wikipedia.org/wiki/File:Corrugated_Cardboard.JPG\" href=\"https://en.wikipedia.org/wiki/File:Corrugated_Cardboard.JPG\">http://en.wikipedia.org/wiki/File:Corrugated_Cardboard.JPG</a>",
+        "source": "commons-desc-page"
+      },
+      "Artist": {
+        "value": "Richard Wheeler (<a href=\"https://en.wikipedia.org/wiki/User:Zephyris\" class=\"extiw\" title=\"en:User:Zephyris\">Zephyris</a>)",
+        "source": "commons-desc-page"
+      },
+      "LicenseShortName": {
+        "value": "CC BY-SA 3.0",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "UsageTerms": {
+        "value": "Creative Commons Attribution-Share Alike 3.0",
+        "source": "commons-desc-page"
+      },
+      "AttributionRequired": {
+        "value": "true",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "LicenseUrl": {
+        "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "source": "commons-desc-page"
+      },
+      "Copyrighted": {
+        "value": "True",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "Restrictions": {
+        "value": "",
+        "source": "commons-desc-page",
+        "hidden": ""
+      },
+      "License": {
+        "value": "cc-by-sa-3.0",
+        "source": "commons-templates",
+        "hidden": ""
+      }
+    },
+    "title": "File:Corrugated Cardboard.JPG"
+  }
+}
