@@ -11,7 +11,7 @@ function start(){open(`<span class="eyebrow">歡迎來到森林工作坊</span><
 function begin(mode){state.name=$('#name').value.trim()||'森林旅人';state.mode=mode;persist();modal.close();render()}
 function render(){ $('#steps').innerHTML=parts.map((p,i)=>`<button ${busy?'disabled':''} class="${i===step?'active':''} ${state.selected[i]!==null?'done':''}" onclick="go(${i})">0${i+1} ${p}</button>`).join('');$('#partTitle').textContent='選擇'+parts[step]+'材料';$('#partHint').textContent=['撐起整座遊具，先從穩固的主幹開始。','連接每一份快樂，留意繩索的狀況。','坐得穩，也想想材料從哪裡來。'][step];$('#materials').innerHTML=data[step].map((m,i)=>`<button class="material ${state.selected[step]===i?'selected':''}" ${busy||state.attempts>=5?'disabled':''} onclick="select(${i})"><img class="material-photo" src="${photoKeys[step][i]}.jpg" alt="${m[1]}實物示意照片"><span><b>${m[1]}</b><small>${m[2]}</small></span><span class="carbon">${state.mode==='show'?m[3].toFixed(1):'？'}<small>kg CO₂e · 示範</small></span></button>`).join('');$('#remaining').textContent=`剩餘 ${5-state.attempts} / 5 次`;$('#summary').textContent=parts.map((p,i)=>p+'：'+(state.selected[i]===null?'待選擇':data[i][state.selected[i]][1])).join('　／　');$('#build').disabled=busy||state.attempts>=5||state.selected.some(x=>x===null);$('#build').textContent=busy?'製作中…':state.attempts>=5?'本輪挑戰已完成':'開始製作 ↗';if(state.selected[0]!==null)$('#pole').setAttribute('fill',data[0][state.selected[0]][5]);if(state.selected[1]!==null)$('#ropes').setAttribute('stroke',data[1][state.selected[1]][5]);if(state.selected[2]!==null)$('#seat').setAttribute('fill',data[2][state.selected[2]][5])}
 function go(i){if(!busy){step=i;render()}}function select(i){if(busy||state.attempts>=5)return;state.selected[step]=i;$('.scene').classList.remove('success','failed');persist();render();if(step<2)setTimeout(()=>{if(!busy){step++;render()}},200)}
-function build(){if(busy||state.attempts>=5||state.selected.some(x=>x===null))return;busy=true;state.attempts++;persist();$('.scene').className='scene building';$('#sceneCaption').textContent='森林工作坊正在敲敲打打…';render();setTimeout(()=>{const chosen=state.selected.map((x,i)=>data[i][x]);const failed=chosen.map((x,i)=>!x[4]?parts[i]:null).filter(Boolean);const total=+chosen.reduce((a,m)=>a+m[3],0).toFixed(1);const result={success:!failed.length,total,materials:chosen.map(x=>x[1]),name:state.name,mode:state.mode,attempt:state.attempts};state.history.push(result);persist();busy=false;$('.scene').className='scene '+(result.success?'success':'failed');$('#sceneCaption').textContent=result.success?'建造成功！讓森林裡的快樂旋轉起來。':'這次沒有成功。調整材料，再試一次。';render();setTimeout(()=>showResult(result,failed),1100)},3000)}
+function build(){if(busy||state.attempts>=5||state.selected.some(x=>x===null))return;randomizeHammers();busy=true;state.attempts++;persist();$('.scene').className='scene building';$('#sceneCaption').textContent='森林工作坊正在敲敲打打…';render();setTimeout(()=>{const chosen=state.selected.map((x,i)=>data[i][x]);const failed=chosen.map((x,i)=>!x[4]?parts[i]:null).filter(Boolean);const total=+chosen.reduce((a,m)=>a+m[3],0).toFixed(1);const result={success:!failed.length,total,materials:chosen.map(x=>x[1]),name:state.name,mode:state.mode,attempt:state.attempts};state.history.push(result);persist();busy=false;$('.scene').className='scene '+(result.success?'success':'failed');$('#sceneCaption').textContent=result.success?'建造成功！讓森林裡的快樂旋轉起來。':'這次沒有成功。調整材料，再試一次。';render();setTimeout(()=>showResult(result,failed),1100)},3000)}
 function showResult(r,failed){open(`<span class="eyebrow">第 ${r.attempt} 次挑戰 · ${r.success?'建造成功':'再調整一下'}</span><h2>${r.success?'你的遊具轉起來了！':'找到需要改進的地方。'}</h2>${r.success?`<div class="big">${r.total.toFixed(1)} <small style="font:14px sans-serif">kg CO₂e</small></div><p>示範碳排估算，數值尚未核實。</p>`:`<p>${failed.join('、')}不符合本遊戲設定的結構條件，請依材料卡上的狀況與特性更換。</p>`}${r.materials.map((m,i)=>`<div class="row"><span>${parts[i]} · ${m}</span><span>${data[i][state.selected[i]][3].toFixed(1)} kg CO₂e</span></div>`).join('')}<p>剩餘 ${5-state.attempts} 次機會。${r.success?'試著比較其他符合條件的材料。':'完整與適用性，也是選材的重要條件。'}</p><button class="primary" onclick="modal.close()">${state.attempts<5?'回到工作臺':'查看作品'}</button><button class="secondary" onclick="showBoard()">查看挑戰紀錄</button>`)}
 function showBoard(){const rows=state.history.filter(x=>x.success&&x.mode===state.mode).sort((a,b)=>a.total-b.total);let rank=0;open(`<span class="eyebrow">${state.mode==='hide'?'隱藏':'顯示'}碳排模式 · 本機紀錄</span><h2>森林低碳榜</h2><p>這裡保存本瀏覽器的成功挑戰，尚未連接多人排行榜。碳排相同者並列。</p>${rows.length?rows.map((r,i)=>{if(!i||r.total!==rows[i-1].total)rank=i+1;return `<div class="row"><span>第 ${rank} 名 · 第 ${r.attempt} 次挑戰</span><b>${r.total.toFixed(1)} kg CO₂e</b></div>`}).join(''):'<p>還沒有成功作品，完成第一座遊具吧。</p>'}<p>已使用 ${state.attempts}／5 次；成功 ${rows.length} 次。</p><button class="primary" onclick="modal.close()">回到森林</button>${state.attempts>=5?'<button class="secondary" onclick="newRound()">另開新一輪體驗</button>':''}`)}
 function newRound(){state={name:'森林旅人',mode:null,attempts:0,history:[],selected:[null,null,null]};step=0;persist();$('.scene').className='scene';render();start()}
@@ -34,7 +34,10 @@ function svgShape(tag,attrs){const n=document.createElementNS(svgNS,tag);for(con
 function drawCarousel(angle){
  rotorBack.replaceChildren();rotorFront.replaceChildren();
  const seatColor=state.selected[2]===null?'#a38151':data[2][state.selected[2]][5];
- const ropeColor=state.selected[1]===null?'#d5c8a1':data[1][state.selected[1]][5];
+ const ropeChoice=state.selected[1];
+ const ropeColor=ropeChoice===null?'#d5c8a1':['#3298ad','#b69c67','#657c80','#eee2bc'][ropeChoice];
+ const ropeWidth=ropeChoice===null?3.5:[5,5,3.5,1.3][ropeChoice];
+ updatePoleMaterial();
  const items=[];const count=8,radius=205;
  const point=(a,r=radius,y=333)=>{const x=Math.cos(a)*r,z=Math.sin(a)*r;return {x,z,p:projectPoint(x,z,y)}};
  for(let i=0;i<count;i++){
@@ -42,10 +45,10 @@ function drawCarousel(angle){
   const p=point(a),q=point(b),inner=point(a,36);
   items.push({z:(p.z+q.z)/2,n:svgShape('line',{x1:p.p[0],y1:p.p[1],x2:q.p[0],y2:q.p[1],stroke:'#6b5034','stroke-width':11,'stroke-linecap':'round'})});
   items.push({z:p.z/2,n:svgShape('line',{x1:inner.p[0],y1:inner.p[1],x2:p.p[0],y2:p.p[1],stroke:'#a38253','stroke-width':8,'stroke-linecap':'round'})});
-  items.push({z:p.z/2,n:svgShape('line',{x1:350,y1:132,x2:p.p[0],y2:p.p[1],stroke:ropeColor,'stroke-width':3.5})});
+  items.push({z:p.z/2,n:svgShape('line',{x1:350,y1:132,x2:p.p[0],y2:p.p[1],stroke:ropeColor,'stroke-width':ropeWidth,'stroke-dasharray':ropeChoice===2?'7 3':ropeChoice===3?'2 1':'none'})});
   // Distinct planks and coloured cloth markers make the circular travel legible.
-  const corners=[point(a-.17,178,329),point(a+.17,178,329),point(a+.17,224,329),point(a-.17,224,329)];
-  items.push({z:p.z,n:svgShape('polygon',{points:corners.map(c=>c.p.join(',')).join(' '),fill:seatColor,stroke:'#634a31','stroke-width':2.5,'stroke-linejoin':'round'})});
+  const corners=[point(a-(state.selected[2]===3?.23:.17),178,329),point(a+(state.selected[2]===3?.23:.17),178,329),point(a+(state.selected[2]===3?.23:.17),state.selected[2]===3?232:224,329),point(a-(state.selected[2]===3?.23:.17),state.selected[2]===3?232:224,329)];
+  items.push({z:p.z,n:svgShape('polygon',{points:corners.map(c=>c.p.join(',')).join(' '),fill:state.selected[2]===null?seatColor:['url(#texture-wood)','url(#texture-newwood)','url(#texture-plastic)','url(#texture-cardboard)'][state.selected[2]],stroke:state.selected[2]===2?'#35594a':state.selected[2]===3?'#98764e':'#634a31','stroke-width':2.5,'stroke-linejoin':'round'})});
   if(i%2===0){const tail=point(a,220,350);items.push({z:p.z+1,n:svgShape('path',{d:`M ${p.p[0]} ${p.p[1]} Q ${tail.p[0]+8} ${tail.p[1]+20} ${tail.p[0]-3} ${tail.p[1]+35}`,stroke:['#428f9d','#e0ba50','#8b9b48','#b97a59'][i/2],'stroke-width':9,fill:'none','stroke-linecap':'round'})})}
  }
  items.sort((a,b)=>a.z-b.z).forEach(o=>(o.z<0?rotorBack:rotorFront).appendChild(o.n));
@@ -54,3 +57,36 @@ function drawCarousel(angle){
 let carouselAngle=.32,previousFrame=0;
 function animateCarousel(timestamp){const dt=previousFrame?Math.min((timestamp-previousFrame)/1000,.05):0;previousFrame=timestamp;if(document.querySelector('.scene').classList.contains('success')&&!matchMedia('(prefers-reduced-motion: reduce)').matches)carouselAngle+=dt*.8;drawCarousel(carouselAngle);requestAnimationFrame(animateCarousel)}
 requestAnimationFrame(animateCarousel);
+
+function randomizeHammers(){
+ const group=document.querySelector('#hammers');group.replaceChildren();
+ const count=2+Math.floor(Math.random()*2);
+ const positions=[[205,185],[425,255],[285,315],[165,285],[395,165]];
+ for(let i=positions.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[positions[i],positions[j]]=[positions[j],positions[i]]}
+ for(let i=0;i<count;i++){
+  const [x,y]=positions[i];const mallet=svgShape('image',{href:'mallet-cutout.png',x:x+Math.random()*22-11,y:y+Math.random()*20-10,width:125,height:105,class:'mallet'});
+  mallet.style.animationDelay=(-(Math.random()*.5)).toFixed(2)+'s';mallet.style.animationDuration=(.35+Math.random()*.25).toFixed(2)+'s';group.appendChild(mallet);
+ }
+}
+function installMaterialTextures(){
+ const defs=document.querySelector('svg defs');
+ for(const [key,file] of [['wood','wood'],['driftwood','driftwood'],['newwood','wood'],['plastic','plastic'],['cardboard','cardboard']]){
+  const pattern=svgShape('pattern',{id:'texture-'+key,patternUnits:'userSpaceOnUse',width:key==='wood'?90:65,height:90});
+  pattern.appendChild(svgShape('image',{href:''+file+'.jpg',width:key==='wood'?90:65,height:90,preserveAspectRatio:'xMidYMid slice'}));
+  if(key==='newwood')pattern.appendChild(svgShape('rect',{width:65,height:90,fill:'#d6a15a',opacity:.52}));defs.appendChild(pattern);
+ }
+ const concrete=svgShape('pattern',{id:'texture-concrete',width:25,height:25,patternUnits:'userSpaceOnUse'});
+ concrete.appendChild(svgShape('rect',{width:25,height:25,fill:'#b8b8ac'}));
+ for(let i=0;i<12;i++)concrete.appendChild(svgShape('circle',{cx:(i*13)%25,cy:(i*7)%25,r:i%2?.8:1.4,fill:i%2?'#e0dfd4':'#93978d'}));defs.appendChild(concrete);
+ const steel=svgShape('linearGradient',{id:'texture-steel',x1:0,y1:0,x2:1,y2:0});
+ for(const [offset,color] of [[0,'#53626a'],[.25,'#c8d4d6'],[.48,'#f1f6f2'],[.6,'#84979e'],[1,'#465963']])steel.appendChild(svgShape('stop',{offset,'stop-color':color}));defs.appendChild(steel);
+ const grain=document.querySelectorAll('#structure > path');grain.forEach(n=>{if(n.id!=='pole')n.style.display='none'});
+}
+function updatePoleMaterial(){
+ const choice=state.selected[0];
+ const shapes=['M335 400L340 100Q350 87 360 100L365 400Z','M328 400L340 290L333 215L345 100L358 96L363 220L358 300L371 400Z','M331 400L331 98L369 98L369 400Z','M326 400L332 95L368 95L374 400Z'];
+ poleNode.setAttribute('d',shapes[choice===null?0:choice]);
+ poleNode.setAttribute('fill',choice===null?'url(#wood)':['url(#texture-wood)','url(#texture-driftwood)','url(#texture-steel)','url(#texture-concrete)'][choice]);
+ poleNode.setAttribute('stroke',choice===2?'#4b606a':choice===3?'#8c9085':'#705132');
+}
+installMaterialTextures();

@@ -2,3 +2,5 @@
 /* Rotation is rendered with projected 3D coordinates in app.js. */
 .success #ride{animation:none;transform:none}.scene svg{overflow:visible}
 .material-photo{width:72px;height:64px;object-fit:cover;border-radius:7px;background:#eee9da;flex-shrink:0}.material{padding:9px;gap:12px}.material b{font-size:13px}.material small{line-height:1.5}.building #hammers{animation:none}.mallet{mix-blend-mode:multiply;transform-box:fill-box;transform-origin:80% 50%}.building .mallet{animation:mallet-strike .48s ease-in-out infinite alternate}.building .mallet-two{animation-delay:-.18s}.building .mallet-three{animation-delay:-.32s}@keyframes mallet-strike{from{transform:rotate(-28deg) translateY(-14px)}to{transform:rotate(12deg) translateY(8px)}}
+
+.mallet{mix-blend-mode:normal}.material-photo{object-position:center}
